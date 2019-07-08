@@ -1,0 +1,173 @@
+page {
+  background-color: #eee;
+  height: 100%;
+  overflow: hidden;
+}
+
+.content {
+  height: 500px;
+  background-color: #eee;
+}
+
+.content scroll-view {
+  height: 100%;
+}
+
+.content .line {
+  margin: 0 0;
+  padding: 9px 0;
+}
+
+.content .line .headimg {
+  width: 40px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: #ccc;
+  overflow: hidden;
+}
+
+.content .line .headimg image {
+  width: 100%;
+  height: 100%;
+}
+
+.content .line .msg {
+  background-color: #fff;
+  border: 1rpx solid #ddd;
+  border-radius: 2px;
+  padding: 9px 10px;
+  max-width: 200px;
+  word-break: break-all;
+  line-height: 1.4;
+  font-size: 15px;
+}
+
+.content .line.foo .headimg, .content .line.foo .msg {
+  margin-right: 9px;
+  float: right;
+}
+
+.content .line.bar .headimg, .content .line.bar .msg {
+  margin-left: 9px;
+  float: left;
+}
+
+.content .line.sys {
+  text-align: center;
+}
+
+.content .line.sys view {
+  background-color: #ddd;
+  color: #222;
+  font-size: 12px;
+  display: inline-block;
+  padding: 5px 6px;
+  border-radius: 2px;
+  line-height: 1;
+}
+
+.input {
+  border-top: 1rpx solid #ddd;
+  background-color: #fff;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.input .input-in {
+  margin: 9px;
+  position: relative;
+}
+
+.input .text {
+  margin-right: 70px;
+  margin-left: 37px;
+  overflow: hidden;
+  border-bottom: 1rpx solid #ddd;
+  padding: 6px 0;
+}
+
+.input .text textarea {
+  font-size: 15px;
+  width: 100%;
+  padding: 0;
+  line-height: 1;
+}
+
+.input .text.text-hover {
+  border-color: #222;
+}
+
+.btn-send {
+  position: absolute;
+  width: 68px;
+  right: 0;
+  text-align: right;
+  bottom: 0;
+  height: 32px;
+  overflow: hidden;
+}
+
+.btn-send button {
+  font-size: 13px;
+  background-color: #222;
+  color: #fff;
+  border-radius: 2px;
+  width: 60px;
+  height: 32px;
+  margin: 0;
+  display: inline-block;
+}
+
+.btn-more {
+  position: absolute;
+  width: 35px;
+  bottom: 0;
+  height: 32px;
+  overflow: hidden;
+}
+.btn-more image {
+  width: 30px;
+  height: 30px;
+  margin-top: 1px;
+}
+
+.more-box {
+  background-color: #f8f8f8;
+  border-top: 1px solid #eee;
+  height: 120px;
+}
+
+.more-box .a {
+  width: 25%;
+  text-align: center;
+  margin: 18px 0;
+  float: left;
+}
+.more-box .a view.img {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 9px;
+}
+.more-box .a view.img image {
+  width: 34px;
+  height: 34px;
+  margin-top: 13px;
+}
+.more-box .a view.txt  {
+  display: block;
+  font-size: 12px;
+  color: #333;
+  margin-top: 7px;
+  line-height: 1;
+}
+.morebtn-hover {
+  background-color: #f8f8f8 !important;
+}

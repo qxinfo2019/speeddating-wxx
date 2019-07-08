@@ -1,0 +1,4 @@
+view {
+  margin: 24px;
+  font-size: 15px;
+}

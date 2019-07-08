@@ -1,0 +1,8 @@
+<view class="tophead">约会结束</view>
+<view style="margin-top:46px"><icon type="{{icon}}" size="66" color="#222"></icon></view>
+<view><text>{{tips}}</text></view>
+<view>
+  <navigator url="../index/index" style="display:inline-block">
+    <button hover-class="base-hover">继续约会</button>
+  </navigator>
+</view>

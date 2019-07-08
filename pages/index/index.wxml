@@ -1,0 +1,19 @@
+<view class="page">
+  <view class="page__hd">
+    <view class="user-block">
+      <view class="headimg">
+        <image src="{{headimgUrl}}"></image>
+      </view>
+      <view class="nick">{{nick}}</view>
+    </view>
+    <view class="btns">
+      <button hover-class="base-hover" bindtap="startPairs">{{btnText}}</button>
+      <text>{{tips}}</text>
+    </view>
+    <view class="fix-foobar">
+      <view>
+        <navigator url="about" style="text-align:center;margin-bottom:15px;color:#222">[ 这是什么? ]</navigator>
+      </view>
+    </view>
+  </view>
+</view>

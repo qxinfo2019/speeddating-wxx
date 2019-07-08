@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/about",
+    "pages/chat/chat",
+    "pages/chat/chat-complete"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#8c41a2",
+    "navigationBarTitleText": "8分钟约会",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false
+  },
+  "networkTimeout": {
+    "request": 6000,
+    "connectSocket": 6000,
+    "uploadFile": 15000,
+    "downloadFile": 15000
+  },
+  "debug": false,
+  "sitemapLocation": "sitemap.json"
+}

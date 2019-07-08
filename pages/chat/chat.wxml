@@ -1,0 +1,35 @@
+<scroll-view scroll-y="true" scroll-top="{{scrollTop}}" class="content" style="height:{{contentHeight}}px">
+  <view class="line sys" hidden="{{initMsgHide}}">
+    <view>系统消息: 开始你的8分钟约会吧</view>
+  </view>
+  <view wx:for="{{msgs}}" class="line {{item.class}}" wx:key="msgs_key">
+    <view class="headimg">
+      <image src="{{item.headimg}}"></image>
+    </view>
+    <view class="msg">{{item.content}}</view>
+    <view class="clearfix"></view>
+  </view>
+</scroll-view>
+<view class="input">
+  <view class="input-in">
+    <view class="btn-more" hover-class="base-hover">
+      <image bindtap="showMorebox" src="../../images/btn-more.png"></image>
+    </view>
+    <view class="text {{textHoverClass}}">
+      <textarea fixed="true" maxlength="1000" auto-height="true" cursor-spacing="12" bindinput="inputChange" data-id="content" value="{{content}}" focus="{{textFocus}}" bindfocus="textFocus" bindblur="textBlur"></textarea>
+    </view>
+    <view class="btn-send">
+      <button bindtap="sendMsg" hover-class="base-hover">发送</button>
+    </view>
+    <view class="clearfix"></view>
+  </view>
+  <view class="more-box {{moreboxClass}}">
+    <view class="a" bindtap="exitRoom">
+      <view class="img" hover-class="morebtn-hover">
+        <image src="../../images/btn-exit.png"></image>
+      </view>
+      <view class="txt">结束约会</view>
+    </view>
+    <view class="clearfix"></view>
+  </view>
+</view>
